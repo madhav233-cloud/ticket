@@ -1,0 +1,20 @@
+# Profile: postgres
+# Usage: mvn spring-boot:run -Dspring-boot.run.profiles=postgres
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ticketlock
+    driver-class-name: org.postgresql.Driver
+    username: ticketlock
+    password: ticketlock
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  h2:
+    console:
+      enabled: false
