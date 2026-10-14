@@ -261,15 +261,5 @@ com.ticketlock
 
 ---
 
-## Resume Bullets
 
-- Built a high-concurrency event ticketing platform that prevents overselling under concurrent load using Redis distributed locks and database optimistic locking.
-- Implemented temporary seat holds with automatic expiry and idempotent booking APIs for reliable reservation handling.
-- Designed an event-driven booking lifecycle with Kafka for asynchronous notifications on create, confirm, cancel, and expiry events.
-- Achieved safe multi-seat booking with all-or-nothing lock acquisition and zero double bookings in concurrent load tests.
 
----
-
-## License
-
-MIT
